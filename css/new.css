@@ -1,0 +1,60 @@
+body{
+	background:#f4f4f4;
+	color:black;
+	font-family:Arial,Helvetica,sans-serif;
+	line-height: 1.6em;
+	margin:0;
+}
+.container{
+	margin: auto;
+	overflow: hidden;
+	width: 80%;
+}
+#main-header{
+	background:blue;
+	color:black;
+	font-style: italic;
+}
+#navbar{
+	background-color:grey;
+	color: black;
+}
+#navbar ul{
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+}
+#navbar li{
+	display: inline;
+	text-decoration: none;
+	font-size: 20px;
+	padding-right: 40px;
+	color: black;
+}
+#navbar a:hover{
+	color: red;
+}
+#navbar a{
+	color: white;
+	text-decoration: none;
+}
+#showcase{
+	background-image: url(../IMAGE/lab.jpg);
+	font-size: 30px;
+	line-height: 1.6em;
+	word-spacing: 0.3em;
+}
+.note{
+	text-decoration: underline;
+}
+.paragraph{
+	padding:0 30px;
+}
+#main-footer{
+background:grey;
+padding:20px;
+text-align: center;
+margin-top: 40px;
+}
+@media (max-width: 600px)
+}
